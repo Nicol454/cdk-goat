@@ -22,7 +22,7 @@ jobs:
             python-version: 3.7
 
         - name: Set up Snyk CLI
-          uses: snyk/actions/setup@master
+          uses: snyk/actions/setup@12140f4059e244892ae643824a95459a102120dd # master
 
         - name: Install and configure Poetry
           uses: snok/install-poetry@v1
